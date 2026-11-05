@@ -22,3 +22,29 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# --- dependency stores, caches and build output (added 2026-11-05) ---
+node_modules/
+bower_components/
+.deno/
+.venv/
+venv/
+virtualenv/
+site-packages/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.tox/
+.gradle/
+.next/
+.nuxt/
+.parcel-cache/
+target/
+dist/
+build/
+Pods/
+DerivedData/
+.cache/
+.DS_Store
+Thumbs.db
